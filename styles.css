@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(240, 248, 255);
+}
 
 /*nav section*/
 nav {
@@ -19,7 +22,7 @@ nav {
 }
 
 .navItems {
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -62,14 +65,12 @@ nav {
     align-items: center;
     border-radius: 15px;
     overflow: hidden;
-    background-color: aqua;
-    padding: 25px;
+    background-color: rgb(255, 255, 255);
     margin: 70px 0;
 }
 
 .pieceItem img {
     width: 50%;
-    border-radius: 15px;
 }
 
 .desc {
@@ -79,10 +80,17 @@ nav {
 }
 
 .descItems {
-    background-color: aliceblue;
+    margin: 0 30px;
+    
 }
 
 .descItems h2{
-    margin: 70px 0;
-    
+    margin: 40px 0;
+}
+
+.pieceBtn  {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
